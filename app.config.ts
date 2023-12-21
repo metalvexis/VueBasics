@@ -1,7 +1,7 @@
 export default defineAppConfig({
   title: "James Paulo",
   ui: {
-    primary: "cyan",
+    primary: "riptide",
     gray: "slate",
   },
 });

@@ -12,7 +12,7 @@
       <UContainer class="basis-3/5 flex flex-col gap-4 justify-center py-4">
         <div>
           <p
-            class="font-serif font-bold text-center leading-loose text-lg md:text-3xl text-riptide-600 dark:text-riptide">
+            class="font-serif font-bold text-center leading-loose md:leading-relaxed text-lg md:text-3xl text-riptide-600 dark:text-riptide">
             7 Years in the Industry, <br />A lifetime of a hobby.
           </p>
         </div>
@@ -23,32 +23,38 @@
       </UContainer>
     </UContainer>
 
-    <UContainer class="w-full flex flex-row gap-8 justify-center">
-      <UButton class="rounded-full" size="xl" icon="i-bi-github" to="https://github.com/metalvexis" />
-      <UButton class="rounded-full" size="xl" icon="i-bi-filetype-pdf"
+    <UContainer class="w-full flex flex-row gap-8 justify-center py-4">
+      <UButton class="rounded-full bg-blueviolet dark:bg-blueviolet-300" size="xl" icon="i-bi-github"
+        to="https://github.com/metalvexis" />
+      <UButton class="rounded-full bg-blueviolet dark:bg-blueviolet-300" size="xl" icon="i-bi-filetype-pdf"
         to="https://drive.google.com/file/d/140g0WYRei2yW4-kO-e0iMR4wk7eSdDlf/view?usp=sharing" />
-      <UButton class="rounded-full" size="xl" icon="i-bi-linkedin" to="https://www.linkedin.com/in/jpsaballegue" />
+      <UButton class="rounded-full bg-blueviolet dark:bg-blueviolet-300" size="xl" icon="i-bi-linkedin"
+        to="https://www.linkedin.com/in/jpsaballegue" />
     </UContainer>
 
-    <h1 class="font-serif font-bold text-xl text-center py-2 text-riptide-600">History</h1>
+    <h1 class="font-serif font-bold text-xl text-center text-riptide-600">History</h1>
 
     <UContainer class="w-full flex flex-wrap flex-column">
       <TLineNode class="w-full" title="Senior Software Engineer" subtitle="Coherent" start-date="Nov 2022"
-        end-date="Present" description="" :tech-stack="['NodeJs', 'PostgreSQL', 'React', 'Typescript', 'Python']" />
+        end-date="Present" description="[Confidential]"
+        :tech-stack="['NodeJs', 'PostgreSQL', 'React', 'Typescript', 'Python']" position="left" />
 
-      <TLineNodeFlip class="w-full" title="Technical Lead Developer" subtitle="PDAX" start-date="May 2021"
-        end-date="November 2022" description="" :tech-stack="[]" />
+      <TLineNode class="w-full" title="Technical Lead Developer" subtitle="PDAX" start-date="May 2021"
+        end-date="November 2022"
+        description="I architected and implemented an OLTP system for processing crypto-currency transactions deployed as microservices.
+My services achieved 99.99% uptime and were able to execute 500 concurrent transactions. I also trained my team on maintaining and updating our microservices."
+        :tech-stack="['AWS', 'Docker', 'NodeJs', 'Redis', 'PostgreSQL', 'Typescript', 'Go']" position="right" />
 
       <TLineNode class="w-full" title="Full Stack Developer" subtitle="1Day Group Ltd." start-date="July 2017"
         end-date="May 2021"
         description="I built the back-end system for sending and receiving bookings via a global distribution system for all our partner hotels across South East Asia.
 I also collaborated with our front-end developers to provide our users with a smooth experience for managing and arranging bookings for our partner hotels with numerous rooms and properties."
-        :tech-stack="[]" />
+        :tech-stack="['AWS', 'DigitalOcean', 'Docker', 'MongoDb', 'ExpressJs', 'React', 'NodeJs']" position="left" />
 
-      <TLineNodeFlip class="w-full" title="Web Developer" subtitle="Auxilius Online" start-date="October 2016"
+      <TLineNode class="w-full" title="Web Developer" subtitle="Auxilius Online" start-date="October 2016"
         end-date="July 2017"
         description="I wireframed, designed and develop the frontend for Auxilius Online's web apps catered to all Child care facilities in Orlando, Florida"
-        :tech-stack="[]" />
+        :tech-stack="[]" position="right" />
     </UContainer>
 
   </UContainer>

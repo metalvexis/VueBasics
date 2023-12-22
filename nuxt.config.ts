@@ -22,4 +22,7 @@ export default defineNuxtConfig({
     ],
     "@nuxt/ui",
   ],
+  ui: {
+    icons: ["bi"],
+  },
 });

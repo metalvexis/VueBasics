@@ -1,15 +1,23 @@
 <template>
-  <UContainer class="flex flex-col gap-8 py-6">
-    <UContainer class="w-full md:flex md:flex-row-reverse py-8 rounded-md bg-cornflower-50 dark:bg-transparent">
+  <UContainer class="flex flex-col gap-8 py-6 relative">
+    <UContainer class="absolute px-0 py-0 left-0 right-0">
+      <h1
+        class="font-serif font-bold text-3xl md:text-7xl text-riptide-600/50 dark:text-riptide/10 text-center md:text-left">
+        Software Engineer</h1>
+    </UContainer>
+    <UContainer
+      class="relative w-full md:flex md:flex-row-reverse p-10 rounded-md bg-cornflower-50/50 dark:bg-cornflower-50/5">
 
-      <UContainer class="basis-2/5 flex justify-center">
+
+
+      <UContainer class="z-10 basis-2/5 flex justify-center">
         <img
           class="rounded-full aspect-square object-cover border-4 border-cornflower-200 dark:border-riptide-600 max-w-52"
           src="https://media.licdn.com/dms/image/C5103AQFSekPZio3lcA/profile-displayphoto-shrink_800_800/0/1538276613722?e=1708560000&v=beta&t=8oZuDg1ew-DH27O7S55nHLJyAG8BxpLSKN4ipmGHrAQ"
           alt="Photo of James Paulo Saballegue">
       </UContainer>
 
-      <UContainer class="basis-3/5 flex flex-col gap-4 justify-center py-4">
+      <UContainer class="z-10 basis-3/5 flex flex-col gap-4 justify-center py-4">
         <div>
           <p
             class="font-serif font-bold text-center leading-loose md:leading-relaxed text-lg md:text-3xl text-riptide-600 dark:text-riptide">

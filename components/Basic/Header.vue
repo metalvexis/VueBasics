@@ -5,7 +5,7 @@
       Saballegue</NuxtLink>
     <!-- <NuxtLink href="/demo" class="font-serif sm:text-lg md:text-lg text-riptide-800 dark:text-riptide-100">Demo</NuxtLink> -->
     <UButton class="ml-auto" @:click="isDark = !isDark"
-      :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'" />
+      :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'" :label="isDark ? 'Dark' : 'Light'" />
   </UContainer>
 </template>
 

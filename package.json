@@ -22,6 +22,7 @@
   "dependencies": {
     "@nuxt/ui": "^2.11.1",
     "@nuxtjs/color-mode": "^3.3.2",
-    "@vercel/speed-insights": "^1.0.2"
+    "@vercel/speed-insights": "^1.0.2",
+    "socket.io-client": "^4.7.3"
   }
 }

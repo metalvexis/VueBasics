@@ -11,7 +11,7 @@
 
       <UContainer class="z-10 basis-2/5 flex justify-center">
         <img class="rounded-full aspect-square object-cover border-4 border-cyan-200 dark:border-riptide-600 max-w-52"
-          src="https://media.licdn.com/dms/image/C5103AQFSekPZio3lcA/profile-displayphoto-shrink_800_800/0/1538276613722?e=1708560000&v=beta&t=8oZuDg1ew-DH27O7S55nHLJyAG8BxpLSKN4ipmGHrAQ"
+          src="https://media.licdn.com/dms/image/D5603AQEMRjGKfppLUw/profile-displayphoto-shrink_200_200/0/1704681484323?e=1710374400&v=beta&t=Fbq30bK5iVSG68lWRceJ-9Cq4bxtJ2WGnrLH5xgvBYQ"
           alt="Photo of James Paulo Saballegue">
       </UContainer>
 
@@ -33,7 +33,7 @@
       <UButton class="rounded-full bg-indigo dark:bg-indigo-300" size="xl" icon="i-bi-github"
         to="https://github.com/metalvexis" label="Github" />
       <UButton class="rounded-full bg-indigo dark:bg-indigo-300" size="xl" icon="i-bi-filetype-pdf"
-        to="https://drive.google.com/file/d/140g0WYRei2yW4-kO-e0iMR4wk7eSdDlf/view?usp=sharing" label="CV" />
+        to="https://drive.google.com/file/d/1LSuJDIa0wVA891gajPHRxDoLlfvTcnMi/view?usp=sharing" label="CV" />
       <UButton class="rounded-full bg-indigo dark:bg-indigo-300" size="xl" icon="i-bi-linkedin"
         to="https://www.linkedin.com/in/jpsaballegue" label="LinkedIn" />
     </UContainer>

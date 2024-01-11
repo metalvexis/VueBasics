@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     preference: "light",
   },
   modules: [
+    "@nuxtjs/supabase",
     [
       "@nuxtjs/google-fonts",
       {
@@ -21,8 +22,13 @@ export default defineNuxtConfig({
       },
     ],
     "@nuxt/ui",
+    "@pinia/nuxt",
   ],
   ui: {
     icons: ["bi"],
   },
+  supabase: {
+    redirect: false,
+  },
+  pages: true,
 });

@@ -1,27 +1,19 @@
 <template>
-  <UContainer class="flex flex-col content-stretch">
+  <UContainer class="flex flex-col gap-8 py-6 relative">
     <UContainer class="flex flex-col p-8">
-      <UButton 
-      class="basis-1/2"
-      @:click="increment" label="Click Me" variant="solid" />
+      <UButton class="basis-1/2" @:click="increment" label="Click Me" variant="solid" />
       <p class="basis-1/2">
         Count: {{ example.counter }}
       </p>
     </UContainer>
 
     <UContainer class="flex flex-col p-8">
-      <UButton 
-      class="basis-1/2"
-      @:click="() => socket_send('Hello Ws')" label="Websocket send" variant="solid" />
-      <UButton 
-      class="basis-1/2"
-      @:click="socket_stop" label="Websocket stop" variant="solid" color="indigo"/>
+      <UButton class="basis-1/2" @:click="() => socket_send('Hello Ws')" label="Websocket send" variant="solid" />
+      <UButton class="basis-1/2" @:click="socket_stop" label="Websocket stop" variant="solid" color="indigo" />
     </UContainer>
-    
+
     <UContainer class="flex flex-col p-8">
-      <UButton 
-      class="basis-1/2"
-      @:click="() => send_message('Hello REST')" label="REST send" variant="solid" />
+      <UButton class="basis-1/2" @:click="() => send_message('Hello REST')" label="REST send" variant="solid" />
       <p class="basis-1/2">
         Flask responded: {{ send_message_response }}
       </p>
@@ -30,7 +22,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import type { Ref } from 'vue'
 
 type Example = {
@@ -46,7 +38,7 @@ const send_message_response: Ref<string> = ref("");
 async function send_message(message: string) {
 
   console.log("Sending message: " + message);
-  
+
   try {
     const res = await fetch("http://localhost:8765/hello", {
       method: "POST",

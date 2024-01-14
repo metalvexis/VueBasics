@@ -31,7 +31,4 @@ export default defineNuxtConfig({
     redirect: false,
   },
   pages: true,
-  typescript: {
-    typeCheck: true,
-  },
 });

@@ -23,17 +23,9 @@
 </template>
 
 <script lang="ts" setup>
-interface TLineNode {
-  title: string;
-  subtitle: string;
-  description: string;
-  startDate: Date | string;
-  endDate: Date | string;
-  techStack: string[];
-  position: 'left' | 'right';
-}
+import type { ITLineNodeProps } from '~/composables';
 
-const props = defineProps<TLineNode>()
+const props = defineProps<ITLineNodeProps>()
 
 const dateStyle = computed(() => {
   const style = 'basis-1/2 border-cyan-300 sm:px-4 py-2 sm:py-10 '

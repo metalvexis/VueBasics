@@ -50,7 +50,9 @@
 </template>
 
 <script setup lang="ts">
-const expNodes: TLineNode[] = [
+import type { ITLineNodeProps } from '@/composables/index';
+
+const expNodes: ITLineNodeProps[] = [
   {
     title: "Senior Software Engineer",
     subtitle: "Coherent",

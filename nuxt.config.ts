@@ -31,4 +31,11 @@ export default defineNuxtConfig({
     redirect: false,
   },
   pages: true,
+  nitro: {
+    storage: {
+      data: {
+        driver: "vercelKV",
+      },
+    },
+  },
 });

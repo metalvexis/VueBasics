@@ -26,6 +26,7 @@
     "@nuxt/ui": "^2.11.1",
     "@nuxtjs/color-mode": "^3.3.2",
     "@pinia/nuxt": "^0.5.1",
+    "@vercel/kv": "^1.0.1",
     "@vercel/speed-insights": "^1.0.2",
     "pinia": "^2.1.7",
     "socket.io-client": "^4.7.3"

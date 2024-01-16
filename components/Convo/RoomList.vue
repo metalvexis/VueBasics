@@ -34,7 +34,9 @@
     </UAccordion>
   </span>
   <span v-else>
-    <p class="font-sans px-4 py-2 text-xl text-riptide-500">Rooms</p>
+    <p class="font-sans px-4 text-riptide-400">(UNDER CONSTRUCTION)</p>
+    <p class="font-sans px-4 py-2 text-xl text-riptide-500">Rooms </p>
+
     <div class="w-full overflow-auto">
       <ul>
         <li v-for="room in props.roomList" class="px-4 py-2">

@@ -1,5 +1,3 @@
-export * from "./supabase";
-
 export interface ITLineNodeProps {
   title: string;
   subtitle: string;
@@ -29,5 +27,5 @@ export interface IConvoMsg {
   userId: number | string;
   userName: string;
   content: string;
-  dateSent: Date | string;
+  dateSent: string;
 }

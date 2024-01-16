@@ -1,3 +1,5 @@
+export * from "./supabase";
+
 export interface ITLineNodeProps {
   title: string;
   subtitle: string;
@@ -20,4 +22,12 @@ export interface IConvoRoom {
   id: number | string;
   name: string;
   userCount: number;
+}
+
+export interface IConvoMsg {
+  convoId: number | string;
+  userId: number | string;
+  userName: string;
+  content: string;
+  dateSent: Date | string;
 }

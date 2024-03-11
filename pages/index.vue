@@ -33,7 +33,7 @@
       <UButton class="rounded-full bg-indigo dark:bg-indigo-300" size="xl" icon="i-bi-github"
         to="https://github.com/metalvexis" label="Github" />
       <UButton class="rounded-full bg-indigo dark:bg-indigo-300" size="xl" icon="i-bi-filetype-pdf"
-        to="https://drive.google.com/file/d/1VCHLPPLgEqpuOCjj_omcV44t5oD06UzU/view?usp=sharing" label="CV" />
+        to="https://drive.google.com/file/d/1GTiDrgBJ0lATgszdhLX9k401CRgpq445/view?usp=sharing" label="Resume" />
       <UButton class="rounded-full bg-indigo dark:bg-indigo-300" size="xl" icon="i-bi-linkedin"
         to="https://www.linkedin.com/in/jpsaballegue" label="LinkedIn" />
     </UContainer>

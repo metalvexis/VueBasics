@@ -11,8 +11,7 @@
 
       <UContainer class="z-10 basis-2/5 flex justify-center">
         <img class="rounded-full aspect-square object-cover border-4 border-cyan-200 dark:border-riptide-600 max-w-52"
-          src="https://media.licdn.com/dms/image/D5603AQEMRjGKfppLUw/profile-displayphoto-shrink_200_200/0/1704681484323?e=1710374400&v=beta&t=Fbq30bK5iVSG68lWRceJ-9Cq4bxtJ2WGnrLH5xgvBYQ"
-          alt="Photo of James Paulo Saballegue">
+          src="https://avatars.githubusercontent.com/u/20812784?v=4" alt="Photo of James Paulo Saballegue">
       </UContainer>
 
       <UContainer class="z-10 basis-3/5 flex flex-col gap-4 justify-center py-4">

@@ -1,0 +1,16 @@
+kind: pipeline
+type: docker
+name: node6
+
+steps:
+- name: build
+  image: node:lts-slim
+  commands:
+  - echo "Build main branch"
+  when:
+    branch:
+    - main
+
+trigger:
+  event:
+  - push

@@ -50,7 +50,7 @@
 
 <script setup lang="ts">
 import type { ITLineNodeProps } from '@/composables/index';
-console.log("Hello world")
+// console.log("Hello world")
 const expNodes: ITLineNodeProps[] = [
   {
     title: "Senior Software Engineer",
